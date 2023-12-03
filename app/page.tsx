@@ -28,8 +28,8 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
-          <Image src="/hero-desktop.png" className='hidden md:block' height={760} width={1000} />
-          <Image src="/hero-mobile.png" className='md:hidden block' height={900} width={300} />
+          <Image alt='image one' src="/hero-desktop.png" className='hidden md:block' height={760} width={1000} />
+          <Image alt='image two' src="/hero-mobile.png" className='md:hidden block' height={900} width={300} />
         </div>
       </div>
       {/* <div className='h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent'>
